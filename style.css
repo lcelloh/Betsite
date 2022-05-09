@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #c8a2c8, #ffa400);
+    
+}
+
+#BetSite{
+    font-family: 'Courgette', cursive;
+    font-size: 6em;
+    color: white;
+    margin-top: 1em;
+}
+
+/* .btn{
+    margin-bottom: 9em;
+    height: 4.5em;
+    width: 15em;
+    border-radius: 5rem;
+    background-color: #ffa400;
+    border-color: #ffa400;
+    border-style: solid;
+    font-family: 'Courgette', cursive;
+    color: #1e181e;
+    font-size: 1em;
+    text-decoration:none;
+  text-transform:uppercase;
+  padding:15px 50px;
+  box-shadow: 1px 2.9px 16px #1e181e;
+}
+
+.btn:hover{
+  box-shadow: 3px 4.9px 16px #1e181e;
+} */
+#btn {
+  padding: 0.9375em 3.125em;
+  box-shadow: 1px 0.18125em 1em #ffb731;
+  transition: 0.6s cubic-bezier(0.01, 1.69, 0.99, 0.94);
+  margin-bottom: 9em;
+  height: 4.5em;
+  width: 15em;
+  border-radius: 5rem;
+  background-color: #ffa400;
+  border-color: #ffa400;
+  border-style: solid;
+  font-family: 'Courgette', cursive;
+  color: #1e181e;
+  font-size: 1em;
+  text-decoration:none;
+  text-transform:uppercase;
+  padding:0.9375em 3.125em;
+}
+#btn:hover {
+  box-shadow: 3px 4.9px 16px #ffa600a2;
+  letter-spacing: 3px;
+}
+#btn--clicked {
+  transition: 0.6s cubic-bezier(0.01, 1.69, 0.99, 0.94);
+  padding: 0.9375em 2px;
+  width: 50px;
+  color: transparent;
+  z-index: -10;
+}
+
+.color {
+  display: block;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition: 0.8s ease;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.expanded {
+  width: 200%;
+  padding-bottom: 200%;
+  height: auto;
+}
+
+.color--blue {
+  background-color: #1b8bf9;
+  transition-delay: 0.25s;
+}
+
+.color--orange {
+  background-color: #ff6c19;
+  transition-delay: 0.5s;
+}
+
+.color--green {
+  background-color: #41ff9f;
+  transition-delay: 0.75s;
+}
+
+.color--white {
+  background-color: #f9f9f9;
+  transition-delay: 1s;
+}
